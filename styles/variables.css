@@ -12,10 +12,15 @@
     --content-width: clamp(600px, 48.6%, 800px);
 
     --heart-color: #FF0000;
+    --floppy-size: 21px;
+    --card__footer-direction: row;
 }
 
 @media (max-width: 600px) {
     :root {
         --content-width: 100%;
+        --floppy-size: 28px;
+        --card__footer-direction: column;
     }
 }
+
