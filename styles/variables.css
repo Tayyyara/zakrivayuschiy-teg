@@ -1,7 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
     --main-font: 'Inter-Variable';
-    --accent-font: 'PressStart2P-Regular';
+    --accent-font: 'PressStart2P';
     --font-weight: 400;
     --heading-font-weight: 700;
 
@@ -13,14 +13,14 @@
 
     --heart-color: #FF0000;
     --floppy-size: 21px;
-    --card__footer-direction: row;
+    --save-button-direction: row;
 }
 
 @media (max-width: 600px) {
     :root {
         --content-width: 100%;
         --floppy-size: 28px;
-        --card__footer-direction: column;
+        --save-button-direction: column;
     }
 }
 
